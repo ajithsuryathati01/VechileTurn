@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556159994051",
+    "project_id": "vechileturn",
+    "storage_bucket": "vechileturn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556159994051:android:cf6266bedf0147b0577a76",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.aad.W9506463"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556159994051-1airt1ckhk51mmnabrg2l5t83ou7ardv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw2B3GbqwIVUFz8Vep1RSLPS8-zAygRAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556159994051-1airt1ckhk51mmnabrg2l5t83ou7ardv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
