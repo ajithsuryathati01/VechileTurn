@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -17,6 +20,8 @@ public class Register extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private FirebaseUser firebaseUser;
+    EditText email;
+    EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,18 @@ public class Register extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         firebaseUser = mAuth.getCurrentUser();
+
+        email= findViewById(R.id.register_email);
+        password = findViewById(R.id.register_password);
+        Button loginButton = findViewById(R.id.register_button);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                registerAndSave(email.getText().toString(),password.getText().toString());
+            }
+        });
+
+
     }
 
     public void registerAndSave(String email, String password)
@@ -40,7 +57,7 @@ public class Register extends AppCompatActivity {
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("User creatin failed", "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(getApplicationContext(), "Authentication failed.",
+                            Toast.makeText(getApplicationContext(), task.getException().toString(),
                                     Toast.LENGTH_SHORT).show();
                         }
                     }

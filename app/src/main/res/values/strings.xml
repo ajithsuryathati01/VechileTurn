@@ -4,4 +4,14 @@
     <string name="enter_email">Enter Email</string>
     <string name="enter_password">Enter Password</string>
     <string name="register">Register</string>
+    <string name="vechile_turn">Vechile Turn</string>
+    <string name="or_create_new_account">or create new account</string>
+    <string name="car_services">Car Services</string>
+    <string name="emergency_car_service">Emergency Car Service</string>
+    <string name="add_car">Add Car</string>
+    <string name="todo">TODO</string>
+    <string name="car_brand">Car Brand</string>
+    <string name="car_model">Car Model</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="car_number">Car Number</string>
 </resources>
