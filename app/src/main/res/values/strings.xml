@@ -14,4 +14,14 @@
     <string name="car_model">Car Model</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="car_number">Car Number</string>
+    <string name="heading">heading</string>
+    <string name="vechile_wash">Vechile Wash</string>
+    <string name="full_cleaning_of_vechile_starting_from_air_brusing_to_soap_clean">Full cleaning of vechile starting from air brusing to soap clean</string>
+    <string name="_10_wash">£10/Wash</string>
+    <string name="spare_parts_fitting">Spare Parts Fitting</string>
+    <string name="end_to_end_checkup_and_oil_change">End to end checkup and oil change</string>
+    <string name="_50_visit_charges">£50/Visit+ Charges</string>
+    <string name="_10_200">£10-£200</string>
+    <string name="_70_of_vechiles_spare_parts_are_available">70% of vechiles spare parts are available</string>
+    <string name="general_service">General Service</string>
 </resources>
