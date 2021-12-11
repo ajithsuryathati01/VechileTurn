@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Details"></activity>
+        <activity android:name=".Success"></activity>
+        <activity android:name=".Details" />
         <activity android:name=".allServices" />
         <activity android:name=".EmergencyServices" />
         <activity android:name=".AddCar" />

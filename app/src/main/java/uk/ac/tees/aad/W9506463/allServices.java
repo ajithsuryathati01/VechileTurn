@@ -22,7 +22,7 @@ public class allServices extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(getApplicationContext(),Details.class);
-                intent.putExtra("option","service");
+                intent.putExtra("option","general service");
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class allServices extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(getApplicationContext(),Details.class);
-                intent.putExtra("option","clean");
+                intent.putExtra("option","cleaning");
                 startActivity(intent);
             }
         });
@@ -38,7 +38,7 @@ public class allServices extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(getApplicationContext(),Details.class);
-                intent.putExtra("option","spare");
+                intent.putExtra("option","spare part fitting");
                 startActivity(intent);
             }
         });
