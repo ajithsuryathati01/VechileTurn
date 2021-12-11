@@ -24,4 +24,12 @@
     <string name="_10_200">£10-£200</string>
     <string name="_70_of_vechiles_spare_parts_are_available">70% of vechiles spare parts are available</string>
     <string name="general_service">General Service</string>
+    <string name="choose_your_service">Choose Your Service</string>
+    <string name="submit_service">Submit Service</string>
+    <string name="select_car">Select Car</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="tommarow">Tommarow</string>
+    <string name="today">Today</string>
+    <string name="tommorow">tommorow</string>
+    <string name="textview">TextView</string>
 </resources>

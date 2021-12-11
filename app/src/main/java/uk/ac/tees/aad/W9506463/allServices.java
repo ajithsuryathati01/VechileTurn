@@ -24,7 +24,6 @@ public class allServices extends AppCompatActivity {
                 Intent intent  = new Intent(getApplicationContext(),Details.class);
                 intent.putExtra("option","service");
                 startActivity(intent);
-
             }
         });
         vec.setOnClickListener(new View.OnClickListener() {

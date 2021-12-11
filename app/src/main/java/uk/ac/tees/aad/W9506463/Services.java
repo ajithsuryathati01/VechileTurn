@@ -21,7 +21,7 @@ public class Services extends AppCompatActivity {
         v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"asfasd",Toast.LENGTH_LONG).show();
+               startActivity(new Intent(getApplicationContext(),allServices.class));
             }
         });
 
@@ -30,7 +30,7 @@ public class Services extends AppCompatActivity {
         v1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(getApplicationContext(), EmergencyServices.class));
             }
         });
 

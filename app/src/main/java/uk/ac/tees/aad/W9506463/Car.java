@@ -48,4 +48,18 @@ public class Car {
     public void setModel(String model) {
         this.model = model;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "carNumber='" + carNumber + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", carBrand='" + carBrand + '\'' +
+                ", model='" + model + '\'' +
+                '}';
+    }
+
+    public Car() {
+
+    }
 }
