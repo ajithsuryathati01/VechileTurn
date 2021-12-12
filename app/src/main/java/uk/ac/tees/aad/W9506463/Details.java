@@ -123,11 +123,11 @@ public class Details extends AppCompatActivity implements  AdapterView.OnItemSel
                    String ldt="";
                    if(date == 1){
                        c.setTime(dt);
-                       ldt = c.toString();
+                       ldt = c.getTime().toString();
                    }else{
                        c.setTime(dt);
                        c.add(Calendar.DATE, 1);
-                      ldt = c.toString();
+                      ldt = c.getTime().toString();
                    }
                    Intent intent = new Intent(getApplicationContext(),Success.class);
                    intent.putExtra("car",cars.get(Selected).getCarNumber());
