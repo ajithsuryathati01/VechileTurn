@@ -33,4 +33,6 @@
     <string name="tommorow">tommorow</string>
     <string name="textview">TextView</string>
     <string name="title_activity_maps">Map</string>
+    <string name="get_emergency_service">Get Emergency Service</string>
+    <string name="getting_emergency_services_to_your_location">Getting Emergency Services to your Location</string>
 </resources>

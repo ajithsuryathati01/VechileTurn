@@ -3,6 +3,7 @@ package uk.ac.tees.aad.W9506463;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -54,6 +55,7 @@ public class Register extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("userCrated", "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+                            startActivity(new Intent(getApplicationContext(),Login.class));
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("User creatin failed", "createUserWithEmail:failure", task.getException());
@@ -63,5 +65,10 @@ public class Register extends AppCompatActivity {
                     }
                 });
 
+    }
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+        startActivity(new Intent(getApplicationContext(),Services.class));
     }
 }

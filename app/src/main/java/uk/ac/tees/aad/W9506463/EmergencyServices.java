@@ -61,4 +61,10 @@ public class EmergencyServices extends AppCompatActivity {
                     }
                 });
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+        startActivity(new Intent(getApplicationContext(),Services.class));
+    }
 }

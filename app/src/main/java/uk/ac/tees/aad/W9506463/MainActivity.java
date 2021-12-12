@@ -53,8 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAuthenticationFailed() {
                 super.onAuthenticationFailed();
-                intent = new Intent(getApplicationContext(),Services.class);
-                startActivity(intent);
+
                 Toast.makeText(getApplicationContext(), "Authentication failed",
                         Toast.LENGTH_SHORT)
                         .show();
@@ -82,5 +81,10 @@ public class MainActivity extends AppCompatActivity {
         {
             biometricPrompt.authenticate(promptInfo);
         }
+    }
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+        startActivity(new Intent(getApplicationContext(),Services.class));
     }
 }

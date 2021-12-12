@@ -124,4 +124,10 @@ public class AddCar extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+        startActivity(new Intent(getApplicationContext(),Services.class));
+    }
 }

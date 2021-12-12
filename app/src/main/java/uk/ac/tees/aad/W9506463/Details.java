@@ -178,4 +178,10 @@ public class Details extends AppCompatActivity implements  AdapterView.OnItemSel
         brand.setText(c.getCarBrand());
 
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+        startActivity(new Intent(getApplicationContext(),Services.class));
+    }
 }
