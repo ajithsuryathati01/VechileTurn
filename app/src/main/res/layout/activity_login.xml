@@ -46,7 +46,7 @@
         <EditText
             android:id="@+id/register_email"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/enter_email"
             android:importantForAutofill="no"
@@ -59,7 +59,7 @@
         <EditText
             android:id="@+id/register_password"
             android:layout_width="0dp"
-            android:layout_height="37dp"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/enter_password"
             android:importantForAutofill="no"
